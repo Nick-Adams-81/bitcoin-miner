@@ -17,11 +17,12 @@ def mine(block_number, transactions, previous_hash, prefix_zeros):
     raise BaseException(f"Cant find correct after trying {MAX_NONCE} times")
 
 if __name__ == '__main__':
+    # some dummy transactions #
     transactions = '''
     nick -> walt -> 20,
     jenna -> ernie -> 45
     '''
-    # dificulty variable is umber of zeros in blockchain #
+    # dificulty variable is number of zeros preceding the blockchain #
     dificulty = 6
     # setting a timer to see how long it takes to find blockchains #
     import time
