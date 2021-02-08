@@ -23,7 +23,7 @@ if __name__ == '__main__':
     dificulty = 5
     import time
     start = time.time()
-    print("Start mining!!!")
+    print("Start mining!")
     new_hash = mine(5, transactions,'0000000ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad', dificulty )
     total_time = str((time.time() - start))
     print(f'Done mining! Mining took: {total_time} seconds!')
