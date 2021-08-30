@@ -23,7 +23,7 @@ if __name__ == '__main__':
     jenna -> ernie -> 45
     '''
     # dificulty variable is number of zeros preceding the blockchain #
-    dificulty = 6
+    dificulty = 5
     # setting a timer to see how long it takes to find blockchains #
     import time
     start = time.time()
